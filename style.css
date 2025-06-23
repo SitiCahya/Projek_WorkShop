@@ -1,0 +1,52 @@
+/* Universal Selector */
+*{
+    Margin: 0;
+    pandding: 0;
+    box-sizing: border-box;
+}
+
+/* Root for CSS Variabeles */
+:root{
+    --primary-color: #4863A0;
+    --secondary-color: #728FCE;
+    --light-color: #f0fff0;
+    --text-color: #333;
+}
+
+/* Body Styles */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #98AFC7;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Section */
+header{
+    background-color: #93ace6;
+    color:#f0fff0;
+    padding: 20px 0;
+    text-align:center; 
+}
+
+header.menu{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .menu li a{
+    color:#f0fff0;
+    text-decoration: none;
+    font: size 16px;
+    padding: 5px 10px;
+}
+
+header .menu li a:hover {
+    background-color: #4c7bea;
+    border-radius: 5px;
+}
